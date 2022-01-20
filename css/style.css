@@ -1,0 +1,91 @@
+/*Add padding and margin to space out the page.
+Make the font larger too.*/
+body{
+	font-family: 'Outfit', sans-serif;
+	margin:1%;
+	padding:1%;
+	font-size:150%;
+}
+
+/*#background {
+	background-image:url("../images/sky1copy.JPG");
+	background-size: cover;
+}*/
+
+/*Make the h1 heading bigger with a bold font*/
+h1{
+	font-size: 2em; 
+	font-weight: bold;
+	text-align: center;
+}
+
+.active{
+	/*background: white;*/
+	/*background-color: rgba(255, 255, 255, 0.2);*/
+    text-transform: uppercase;
+	text-align: center;
+    margin: 5px;
+	border: 1.5px solid rgb(0, 0, 0);
+}
+
+.active a{
+	text-decoration: none;
+}
+
+/*Style the images*/
+img{
+    height: 200px;
+    width: auto;
+    /*border: 3px solid blue;*/
+    padding: 25px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/*Make the h2 heading match h1*/
+h2{
+	font-size: 2em; 
+	font-weight: bold;
+	
+}
+
+/*Improve the spacing for paragraphs AND headings*/
+p, h1, h2 {
+    padding: 10px;
+	line-height: 1.5;
+}
+
+/*Add borders around the main components and some
+space too*/
+header, nav, main, h1, footer{
+	/*border: 2px solid grey;*/
+	margin: 10px 0;
+}
+
+/*Change the styling for all of the list 
+items in the nav section*/
+nav li{
+	color: black;
+	/*background-color: #ECFF4D;*/
+	padding:10px;
+	width:25%;
+	/*border:1px solid black;*/
+	display: inline-block;
+	width: 20%;
+}
+
+/*Added this so the links stay the same color*/
+a:visited{color:black}
+
+li{
+	text-align: center;
+}
+
+ul{
+	text-align: center
+}
+
+a{
+	color:black
+}
+
